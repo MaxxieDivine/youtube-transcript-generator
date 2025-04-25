@@ -40,7 +40,7 @@ The React app will run at http://localhost:3000 and proxy API requests to the Fl
 
 ## Usage
 - Paste a YouTube URL and click "Get Transcript"
-- Toggle between plain text and Markdown output
+- Toggle between plain text and Markdown output *(Note: The 'Show Markdown' functionality is currently not working)*
 - Copy or download the transcript as needed
 
 ---
@@ -50,6 +50,10 @@ The React app will run at http://localhost:3000 and proxy API requests to the Fl
 - Deploy the frontend to Vercel, Netlify, or similar
 
 ---
+
+## Troubleshooting
+- **Show Markdown button is disabled or not working:**
+  - The Markdown preview functionality is currently not operational. You can still use the API endpoint `/api/transcript_markdown` to get Markdown-formatted transcripts programmatically.
 
 ## License
 MIT
